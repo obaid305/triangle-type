@@ -1,3 +1,4 @@
+# All three sides are equal, and the triangle is acute.
 def classify_triangle(s1, s2, s3):
     # 1. Check for valid triangle and positive sides
     if s1 <= 0 or s2 <= 0 or s3 <= 0 or s1 + s2 <= s3 or s1 + s3 <= s2 or s2 + s3 <= s1:
